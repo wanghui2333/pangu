@@ -8,11 +8,11 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "你好中国";
     }
     
     @GetMapping("/")
     public String home() {
-        return "Welcome to Spring Boot Application!";
+        return "欢迎使用Spring Boot应用！";
     }
 }
